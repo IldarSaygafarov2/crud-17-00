@@ -40,3 +40,16 @@ USERNAME: {username}
         elif command == '4':  # delete
             print(texts.USER_SELECTED_COMMAND_TEXT[command])
             command_delete = input(texts.USER_COMMAND_DELETE_TEXT)
+
+# этот файл в гите
+
+# ssh-keygen - генерирует ключ для соединения с репозиторием
+# git init - инициализиует гит в проекте
+# git add . - добавляет все файлы проекта для прослушивания гитом
+# git commit -m "commit message" - добавляет для добавленных файлов сообщение о том что мы сделали
+# git status - показывает состояние текущих файлов
+
+# todo ИПОЛЬЗУЮТСЯ ПРИ ПЕРВОМ ПОДКЛЮЧЕНИИ ГИТА
+# git branch -M master - создает главную ветку с названием master
+# git remote add origin <ссылка до репозитория> - соединяет репозиторий и инициализированный гит
+# git push -u origin master - добавляет файлы в репозиторий
